@@ -1,0 +1,18 @@
+/*body{
+    padding: 0;
+    margin: 0;*
+}*/
+#main-container{
+    display: grid;
+    grid-template-rows: repeat(3, 2fr);
+}
+.items{
+    background-color: #efefef;
+    text-align: center;
+    border: 2px solid lightblue;
+}
+#item2{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    border-left:2px solid lightblue ;
+}

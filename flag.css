@@ -1,0 +1,32 @@
+#main-container{
+    display: grid;
+
+}
+.item1{
+    background-color: black;
+}
+.item2{
+    background-color: red;
+
+
+}
+.item3{
+    background-color: yellow;
+}
+ 
+#french{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+#blue{
+    background-color: blue;
+}
+#white{
+    background-color: white;
+}
+#red{
+    background-color: red;
+}
+.flag{
+    padding: 10px;
+}
